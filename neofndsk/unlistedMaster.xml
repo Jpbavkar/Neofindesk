@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite111" thread-count = "2" parallel="tests">
+	
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="UnlistedMaster.deom3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="EdgeTest">
+		<parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="UnlistedMaster.deom3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite>

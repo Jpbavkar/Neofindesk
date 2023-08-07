@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-07T10:27:00 IST" name="Suite14" finished-at="2023-08-07T10:27:25 IST" duration-ms="24337">
+    <groups>
+    </groups>
+    <test started-at="2023-08-07T10:27:00 IST" name="EdgeTest" finished-at="2023-08-07T10:27:23 IST" duration-ms="22124">
+      <class name="BondMaster.EditBondDetails">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:BondMaster.EditBondDetails@62ddbd7e]" started-at="2023-08-07T10:27:00 IST" name="beforeClass" finished-at="2023-08-07T10:27:11 IST" duration-ms="10571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:BondMaster.EditBondDetails@62ddbd7e]" started-at="2023-08-07T10:27:11 IST" name="beforeMethod" finished-at="2023-08-07T10:27:18 IST" duration-ms="6940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="submit()[pri:0, instance:BondMaster.EditBondDetails@62ddbd7e]" started-at="2023-08-07T10:27:18 IST" name="submit" finished-at="2023-08-07T10:27:19 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:BondMaster.EditBondDetails@62ddbd7e]" started-at="2023-08-07T10:27:19 IST" name="afterMethod" finished-at="2023-08-07T10:27:19 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:BondMaster.EditBondDetails@62ddbd7e]" started-at="2023-08-07T10:27:19 IST" name="beforeMethod" finished-at="2023-08-07T10:27:22 IST" duration-ms="3301" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=115.0.1901.188)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [73bec0261460ce1507d9646d92c3065f, clickElement {id=15CEAF1BEB59F4A528B06CB6C56521A8_element_162}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:51582}, msedge: {msedgedriverVersion: 115.0.1901.183 (db29db5e66a..., userDataDir: C:\Users\INVEST~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51582/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (73bec0261460ce1507d9646d92c3065f)] -> xpath: (//button[text()='Login'])[1]]
+Session ID: 73bec0261460ce1507d9646d92c3065f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=115.0.1901.188)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [73bec0261460ce1507d9646d92c3065f, clickElement {id=15CEAF1BEB59F4A528B06CB6C56521A8_element_162}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:51582}, msedge: {msedgedriverVersion: 115.0.1901.183 (db29db5e66a..., userDataDir: C:\Users\INVEST~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51582/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (73bec0261460ce1507d9646d92c3065f)] -> xpath: (//button[text()='Login'])[1]]
+Session ID: 73bec0261460ce1507d9646d92c3065f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at pages.Homepage.clickOnLogin(Homepage.java:32)
+at BondMaster.EditBondDetails.beforeMethod(EditBondDetails.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateCashflow()[pri:0, instance:BondMaster.EditBondDetails@62ddbd7e]" started-at="2023-08-07T10:27:22 IST" name="updateCashflow" finished-at="2023-08-07T10:27:22 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=115.0.1901.188)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [73bec0261460ce1507d9646d92c3065f, clickElement {id=15CEAF1BEB59F4A528B06CB6C56521A8_element_162}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:51582}, msedge: {msedgedriverVersion: 115.0.1901.183 (db29db5e66a..., userDataDir: C:\Users\INVEST~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51582/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (73bec0261460ce1507d9646d92c3065f)] -> xpath: (//button[text()='Login'])[1]]
+Session ID: 73bec0261460ce1507d9646d92c3065f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: MicrosoftEdge=115.0.1901.188)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [73bec0261460ce1507d9646d92c3065f, clickElement {id=15CEAF1BEB59F4A528B06CB6C56521A8_element_162}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:51582}, msedge: {msedgedriverVersion: 115.0.1901.183 (db29db5e66a..., userDataDir: C:\Users\INVEST~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51582/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (73bec0261460ce1507d9646d92c3065f)] -> xpath: (//button[text()='Login'])[1]]
+Session ID: 73bec0261460ce1507d9646d92c3065f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at pages.Homepage.clickOnLogin(Homepage.java:32)
+at BondMaster.EditBondDetails.beforeMethod(EditBondDetails.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCashflow -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:BondMaster.EditBondDetails@62ddbd7e]" started-at="2023-08-07T10:27:23 IST" name="afterMethod" finished-at="2023-08-07T10:27:23 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:BondMaster.EditBondDetails@62ddbd7e]" started-at="2023-08-07T10:27:23 IST" name="afterClass" finished-at="2023-08-07T10:27:23 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- BondMaster.EditBondDetails -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-08-07T10:27:00 IST" name="ChromeTest" finished-at="2023-08-07T10:27:25 IST" duration-ms="24337">
+      <class name="BondMaster.EditBondDetails">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:BondMaster.EditBondDetails@5b7a5baa]" started-at="2023-08-07T10:27:00 IST" name="beforeClass" finished-at="2023-08-07T10:27:09 IST" duration-ms="8955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:BondMaster.EditBondDetails@5b7a5baa]" started-at="2023-08-07T10:27:09 IST" name="beforeMethod" finished-at="2023-08-07T10:27:16 IST" duration-ms="6770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="submit()[pri:0, instance:BondMaster.EditBondDetails@5b7a5baa]" started-at="2023-08-07T10:27:16 IST" name="submit" finished-at="2023-08-07T10:27:17 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:BondMaster.EditBondDetails@5b7a5baa]" started-at="2023-08-07T10:27:17 IST" name="afterMethod" finished-at="2023-08-07T10:27:18 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:BondMaster.EditBondDetails@5b7a5baa]" started-at="2023-08-07T10:27:18 IST" name="beforeMethod" finished-at="2023-08-07T10:27:25 IST" duration-ms="7013" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bf5a2df54e68cfc024c03cb2b1b89c5, findElement {using=xpath, value=//input[@name='userName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\INVEST~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51565/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bf5a2df54e68cfc024c03cb2b1b89c5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bf5a2df54e68cfc024c03cb2b1b89c5, findElement {using=xpath, value=//input[@name='userName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\INVEST~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51565/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bf5a2df54e68cfc024c03cb2b1b89c5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at pages.Homepage.sendKeysToUserId(Homepage.java:37)
+at BondMaster.EditBondDetails.beforeMethod(EditBondDetails.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateCashflow()[pri:0, instance:BondMaster.EditBondDetails@5b7a5baa]" started-at="2023-08-07T10:27:25 IST" name="updateCashflow" finished-at="2023-08-07T10:27:25 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bf5a2df54e68cfc024c03cb2b1b89c5, findElement {using=xpath, value=//input[@name='userName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\INVEST~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51565/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bf5a2df54e68cfc024c03cb2b1b89c5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5bf5a2df54e68cfc024c03cb2b1b89c5, findElement {using=xpath, value=//input[@name='userName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\INVEST~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51565/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bf5a2df54e68cfc024c03cb2b1b89c5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at pages.Homepage.sendKeysToUserId(Homepage.java:37)
+at BondMaster.EditBondDetails.beforeMethod(EditBondDetails.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCashflow -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:BondMaster.EditBondDetails@5b7a5baa]" started-at="2023-08-07T10:27:25 IST" name="afterMethod" finished-at="2023-08-07T10:27:25 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:BondMaster.EditBondDetails@5b7a5baa]" started-at="2023-08-07T10:27:25 IST" name="afterClass" finished-at="2023-08-07T10:27:25 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- BondMaster.EditBondDetails -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite14 -->
+</testng-results>
