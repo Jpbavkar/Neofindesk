@@ -46,7 +46,7 @@ public class Brokermaster {
 		System.out.println("Edge has been open");
 		
 		}
-		driver.navigate().to("https://neofindesk.com/");
+		driver.navigate().to("http://192.168.1.33:3000/");
 			
 		    homepage = new Homepage (driver);
 			homepage.clickOnLogin();

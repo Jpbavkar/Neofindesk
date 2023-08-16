@@ -1,5 +1,7 @@
 package UnlistedMaster;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
@@ -56,7 +58,7 @@ public class AddUnlisted {
 		}
 	
 		
-driver.navigate().to("https://neofindesk.com/");
+driver.navigate().to("http://192.168.1.33:3000/");
 			
 System.out.println("neofindesk has been open");
 System.out.println("=====");
@@ -84,46 +86,84 @@ System.out.println("=====");
 	}
 		
 	@Test(priority =1)
-	public void scriptName()
+	public void scriptName() throws FileNotFoundException
 	{
-		String name =new String ("kkkk");
+		
+//Script Name		
+		String name =new String ("INVESTTECHNOLOGY");
 		WebElement scriptName = driver.findElement(By.xpath("//label[text()='Script Name']"));
 		Actions act1 =new Actions (driver);
 		act1.moveToElement(scriptName).click().sendKeys(name).build().perform();	
 	System.out.println(name+" is selected as Script Name");
 	
-	
-	    String number =new String ("kkkk");
+//Isin Number	
+	    String number =new String ("INE142M01333");
 		WebElement isinNumber = driver.findElement(By.xpath("//label[text()='Isin Number']"));
 		Actions act2 =new Actions (driver);
 		act2.moveToElement(isinNumber).click().sendKeys(number).build().perform();
 		System.out.println(number+" is selected as Isin Number");
 	
-	
+//Face Value	
 		String face =new String ("2");
 		WebElement faceValue = driver.findElement(By.xpath("//label[text()='Face Value']"));
 		Actions act3 =new Actions (driver);
 		act3.moveToElement(faceValue).click().sendKeys(face).build().perform();
 		System.out.println(face+" is selected as Isin Number");
 	
-	
+//Upload Logo	
 		WebElement uploadLogoButton = driver.findElement(By.xpath("//label[text()='Upload Logo']"));
-		boolean result1= uploadLogoButton.isEnabled();
-		System.out.println(result1);
+		Actions act41 =new Actions (driver);
+		String path = System.getProperty("project.dir");
+		act41.moveToElement(uploadLogoButton).click().sendKeys("C:\\Users\\INVESTVALUE\\Downloads\\R.jpg");
 	
 	
 	
+//Upload File	
 		WebElement uploadReportFile = driver.findElement(By.xpath("//label[text()='Upload Report File']"));
 		boolean result2= uploadReportFile.isEnabled();
 		System.out.println(result2);
-	}
+		
+		WebElement submit = driver.findElement(By.xpath("//button[text()=' Submit']"));
+		Actions act4 =new Actions (driver);
+		act4.moveToElement(submit).click().build().perform();
+		
+		
+		
+//Verification		
+		String data = ("invest");
+		String data1 = data.toLowerCase();
+		System.out.println("String enter ="+data1);
+		System.out.println("=====");
+		
+		WebElement searchTab= driver.findElement(By.xpath("//input[@placeholder='Search unlisted by name']"));
+		searchTab.sendKeys(data);
+
+		WebElement result= driver.findElement(By.xpath("//tbody[@class='MuiTableBody-root css-apqrd9-MuiTableBody-root']"));
+		String verify = result.getText();
+		String newVerify = verify.toLowerCase();
+
+		//String newVerify = new String (verify);
+		System.out.println("Results");
+		System.out.println(verify);
+		System.out.println("=====");
+
+		if(newVerify.contains(data))
+		{
+			System.out.println("Search Tab is working");
+		}
+		else
+		{
+			System.out.println("Search Tab is not working");
+		}
+		WebElement content = driver.findElement(By.xpath("//td[text()='"+ name +"']"));
+		content.click();
+		
+		
+		
 	
-	@Test(enabled=false)
-	public void submit()
-	{
-		WebElement submit = driver.findElement(By.xpath("//label[text()=' Submit']"));
-		boolean result3= submit.isEnabled();
-		System.out.println(result3);
+	
+	
+		
 	}
 	@AfterMethod
 	public void afterMethod()

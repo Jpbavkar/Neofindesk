@@ -47,7 +47,7 @@ public class UserManagTab {
 		System.out.println("Edge has been open");
 		
 		}
-		driver.navigate().to("https://neofindesk.com/");
+		driver.navigate().to("http://192.168.1.33:3000/");
 			
 		    homepage = new Homepage (driver);
 			homepage.clickOnLogin();
@@ -64,7 +64,7 @@ public class UserManagTab {
 			String userManagementurl = driver.getCurrentUrl();
 			System.out.println(userManagementurl);
 		
-			if(userManagementurl.equals("https://neofindesk.com/UserDashBoard"))
+			if(userManagementurl.equals("http://192.168.1.33:3000/UserDashBoard"))
 			{
 				System.out.println("Url is verified");
 			}
@@ -76,7 +76,7 @@ public class UserManagTab {
 @AfterTest
 public void afterTest()
 {
-			driver.close();
+			//driver.close();
 	}
 	
 	

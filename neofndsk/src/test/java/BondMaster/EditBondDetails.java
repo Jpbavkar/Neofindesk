@@ -55,7 +55,7 @@ public class EditBondDetails {
 		}
 	
 		
-driver.navigate().to("https://stage.neofindesk.com/");
+driver.navigate().to("http://192.168.1.33:3000/");
 			
 System.out.println("neofindesk has been open");
 System.out.println("=====");

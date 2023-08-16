@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/27</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 27 11:42:15 IST 2023</td>
+<td>Started on:</td><td>Mon Aug 07 16:40:40 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (115 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (632 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,25 +76,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='UnlistedMaster.deom3.beforeClass()'><b>beforeClass</b><br>Test class: UnlistedMaster.deom3</td>
+<td title='BrokerMaster.Brokermaster.beforeClass()'><b>beforeClass</b><br>Test class: BrokerMaster.Brokermaster</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\INVESTVALUE\eclipse-workspace\neofndsk\testng.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2001223946", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2001223946'><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\INVESTVALUE\eclipse-workspace\neofndsk\testng.xml
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace409962262", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace409962262'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
@@ -109,8 +106,8 @@ in C:\Users\INVESTVALUE\eclipse-workspace\neofndsk\testng.xml
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>-1690438335</td>
-<td>UnlistedMaster.deom3@13c9d689</td></tr>
+<td>-1691406640</td>
+<td>BrokerMaster.Brokermaster@5aa9e4eb</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -121,20 +118,420 @@ in C:\Users\INVESTVALUE\eclipse-workspace\neofndsk\testng.xml
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='UnlistedMaster.deom3.beforeMethod()'><b>beforeMethod</b><br>Test class: UnlistedMaster.deom3</td>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
 <td></td>
 <td>0</td>
-<td>UnlistedMaster.deom3@13c9d689</td></tr>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
 <tr>
-<td title='UnlistedMaster.deom3.afterMethod()'><b>afterMethod</b><br>Test class: UnlistedMaster.deom3</td>
+<td title='BondMaster.EditBondDetails.beforeMethod()'><b>beforeMethod</b><br>Test class: BondMaster.EditBondDetails</td>
 <td></td>
 <td>0</td>
-<td>UnlistedMaster.deom3@13c9d689</td></tr>
+<td>BondMaster.EditBondDetails@3cd3e762</td></tr>
 <tr>
-<td title='UnlistedMaster.deom3.afterClass()'><b>afterClass</b><br>Test class: UnlistedMaster.deom3</td>
+<td title='BondMaster.addBondFile.afterClass()'><b>afterClass</b><br>Test class: BondMaster.addBondFile</td>
 <td></td>
 <td>0</td>
-<td>UnlistedMaster.deom3@13c9d689</td></tr>
+<td>BondMaster.addBondFile@3eb25e1a</td></tr>
+<tr>
+<td title='BondMaster.addBondFile.beforeClass()'><b>beforeClass</b><br>Test class: BondMaster.addBondFile</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.addBondFile@3eb25e1a</td></tr>
+<tr>
+<td title='BrokerMaster.SearchTab.afterMethod()'><b>afterMethod</b><br>Test class: BrokerMaster.SearchTab</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.SearchTab@f5958c9</td></tr>
+<tr>
+<td title='BrokerMaster.AddBroker.afterClass()'><b>afterClass</b><br>Test class: BrokerMaster.AddBroker</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.AddBroker@185a6e9</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.UserManagTab.afterTest()'><b>afterTest</b><br>Test class: UserManagement.UserManagTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.UserManagTab@6743e411</td></tr>
+<tr>
+<td title='UserManagement.UserRoleTab.afterClass()'><b>afterClass</b><br>Test class: UserManagement.UserRoleTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.UserRoleTab@77c2494c</td></tr>
+<tr>
+<td title='ProductType.ViewAndUpdate.afterClass()'><b>afterClass</b><br>Test class: ProductType.ViewAndUpdate</td>
+<td></td>
+<td>0</td>
+<td>ProductType.ViewAndUpdate@9d5509a</td></tr>
+<tr>
+<td title='BondMaster.AddBond.beforeMethod()'><b>beforeMethod</b><br>Test class: BondMaster.AddBond</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.AddBond@3b0090a4</td></tr>
+<tr>
+<td title='UserManagement.UserRoleTab.beforeMethod()'><b>beforeMethod</b><br>Test class: UserManagement.UserRoleTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.UserRoleTab@77c2494c</td></tr>
+<tr>
+<td title='UnlistedMaster.AddUnlisted.afterMethod()'><b>afterMethod</b><br>Test class: UnlistedMaster.AddUnlisted</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.AddUnlisted@477b4cdf</td></tr>
+<tr>
+<td title='ProductType.CreateNewRecord.afterClass()'><b>afterClass</b><br>Test class: ProductType.CreateNewRecord</td>
+<td></td>
+<td>0</td>
+<td>ProductType.CreateNewRecord@233795b6</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.EditBondDetails.afterClass()'><b>afterClass</b><br>Test class: BondMaster.EditBondDetails</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.EditBondDetails@3cd3e762</td></tr>
+<tr>
+<td title='BrokerMaster.EditBrokerDetails.beforeMethod()'><b>beforeMethod</b><br>Test class: BrokerMaster.EditBrokerDetails</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.EditBrokerDetails@6f03482</td></tr>
+<tr>
+<td title='BondMaster.EditBondDetails.afterMethod()'><b>afterMethod</b><br>Test class: BondMaster.EditBondDetails</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.EditBondDetails@3cd3e762</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.UserManagTab.beforeClass()'><b>beforeClass</b><br>Test class: UserManagement.UserManagTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.UserManagTab@6743e411</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.ViewTab.afterClass()'><b>afterClass</b><br>Test class: UserManagement.ViewTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.ViewTab@662ac478</td></tr>
+<tr>
+<td title='UnlistedMaster.SearchTab.afterMethod()'><b>afterMethod</b><br>Test class: UnlistedMaster.SearchTab</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.SearchTab@3eb738bb</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BrokerMaster.SearchTab.beforeClass()'><b>beforeClass</b><br>Test class: BrokerMaster.SearchTab</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.SearchTab@f5958c9</td></tr>
+<tr>
+<td title='UnlistedMaster.SearchTab.beforeClass()'><b>beforeClass</b><br>Test class: UnlistedMaster.SearchTab</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.SearchTab@3eb738bb</td></tr>
+<tr>
+<td title='BrokerMaster.AddBroker.beforeMethod()'><b>beforeMethod</b><br>Test class: BrokerMaster.AddBroker</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.AddBroker@185a6e9</td></tr>
+<tr>
+<td title='BondMaster.EditBondDetails.afterMethod()'><b>afterMethod</b><br>Test class: BondMaster.EditBondDetails</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.EditBondDetails@3cd3e762</td></tr>
+<tr>
+<td title='BondMaster.searchTab.beforeMethod()'><b>beforeMethod</b><br>Test class: BondMaster.searchTab</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.searchTab@5bda8e08</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UnlistedMaster.AddUnlisted.afterClass()'><b>afterClass</b><br>Test class: UnlistedMaster.AddUnlisted</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.AddUnlisted@477b4cdf</td></tr>
+<tr>
+<td title='UserManagement.ViewTab.beforeClass()'><b>beforeClass</b><br>Test class: UserManagement.ViewTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.ViewTab@662ac478</td></tr>
+<tr>
+<td title='BondMaster.AddBond.afterMethod()'><b>afterMethod</b><br>Test class: BondMaster.AddBond</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.AddBond@3b0090a4</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UnlistedMaster.DisableButon.beforeClass()'><b>beforeClass</b><br>Test class: UnlistedMaster.DisableButon</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.DisableButon@179ece50</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.beforeClass()'><b>beforeClass</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='ProductType.ViewAndUpdate.afterMethod()'><b>afterMethod</b><br>Test class: ProductType.ViewAndUpdate</td>
+<td></td>
+<td>0</td>
+<td>ProductType.ViewAndUpdate@9d5509a</td></tr>
+<tr>
+<td title='UserManagement.ViewTab.afterMethod()'><b>afterMethod</b><br>Test class: UserManagement.ViewTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.ViewTab@662ac478</td></tr>
+<tr>
+<td title='UserManagement.UserRoleTab.beforeClass()'><b>beforeClass</b><br>Test class: UserManagement.UserRoleTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.UserRoleTab@77c2494c</td></tr>
+<tr>
+<td title='UnlistedMaster.AddUnlisted.beforeMethod()'><b>beforeMethod</b><br>Test class: UnlistedMaster.AddUnlisted</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.AddUnlisted@477b4cdf</td></tr>
+<tr>
+<td title='ProductType.ViewAndUpdate.beforeClass()'><b>beforeClass</b><br>Test class: ProductType.ViewAndUpdate</td>
+<td></td>
+<td>0</td>
+<td>ProductType.ViewAndUpdate@9d5509a</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.searchTab.afterMethod()'><b>afterMethod</b><br>Test class: BondMaster.searchTab</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.searchTab@5bda8e08</td></tr>
+<tr>
+<td title='UserManagement.UserRoleTab.afterMethod()'><b>afterMethod</b><br>Test class: UserManagement.UserRoleTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.UserRoleTab@77c2494c</td></tr>
+<tr>
+<td title='UnlistedMaster.DisableButon.afterMethod()'><b>afterMethod</b><br>Test class: UnlistedMaster.DisableButon</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.DisableButon@179ece50</td></tr>
+<tr>
+<td title='BrokerMaster.AddBroker.beforeClass()'><b>beforeClass</b><br>Test class: BrokerMaster.AddBroker</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.AddBroker@185a6e9</td></tr>
+<tr>
+<td title='BondMaster.EditBondDetails.beforeMethod()'><b>beforeMethod</b><br>Test class: BondMaster.EditBondDetails</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.EditBondDetails@3cd3e762</td></tr>
+<tr>
+<td title='UnlistedMaster.DisableButon.afterClass()'><b>afterClass</b><br>Test class: UnlistedMaster.DisableButon</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.DisableButon@179ece50</td></tr>
+<tr>
+<td title='BondMaster.addBondFile.beforeMethod()'><b>beforeMethod</b><br>Test class: BondMaster.addBondFile</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.addBondFile@3eb25e1a</td></tr>
+<tr>
+<td title='BrokerMaster.EditBrokerDetails.beforeClass()'><b>beforeClass</b><br>Test class: BrokerMaster.EditBrokerDetails</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.EditBrokerDetails@6f03482</td></tr>
+<tr>
+<td title='BrokerMaster.SearchTab.afterClass()'><b>afterClass</b><br>Test class: BrokerMaster.SearchTab</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.SearchTab@f5958c9</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BrokerMaster.SearchTab.beforeMethod()'><b>beforeMethod</b><br>Test class: BrokerMaster.SearchTab</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.SearchTab@f5958c9</td></tr>
+<tr>
+<td title='UnlistedMaster.DisableButon.beforeMethod()'><b>beforeMethod</b><br>Test class: UnlistedMaster.DisableButon</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.DisableButon@179ece50</td></tr>
+<tr>
+<td title='UnlistedMaster.AddUnlisted.beforeClass()'><b>beforeClass</b><br>Test class: UnlistedMaster.AddUnlisted</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.AddUnlisted@477b4cdf</td></tr>
+<tr>
+<td title='BrokerMaster.EditBrokerDetails.afterMethod()'><b>afterMethod</b><br>Test class: BrokerMaster.EditBrokerDetails</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.EditBrokerDetails@6f03482</td></tr>
+<tr>
+<td title='BondMaster.EditBondDetails.beforeClass()'><b>beforeClass</b><br>Test class: BondMaster.EditBondDetails</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.EditBondDetails@3cd3e762</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='ProductType.CreateNewRecord.beforeMethod()'><b>beforeMethod</b><br>Test class: ProductType.CreateNewRecord</td>
+<td></td>
+<td>0</td>
+<td>ProductType.CreateNewRecord@233795b6</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.searchTab.beforeClass()'><b>beforeClass</b><br>Test class: BondMaster.searchTab</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.searchTab@5bda8e08</td></tr>
+<tr>
+<td title='ProductType.CreateNewRecord.beforeClass()'><b>beforeClass</b><br>Test class: ProductType.CreateNewRecord</td>
+<td></td>
+<td>0</td>
+<td>ProductType.CreateNewRecord@233795b6</td></tr>
+<tr>
+<td title='BrokerMaster.EditBrokerDetails.afterClass()'><b>afterClass</b><br>Test class: BrokerMaster.EditBrokerDetails</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.EditBrokerDetails@6f03482</td></tr>
+<tr>
+<td title='ProductType.CreateNewRecord.afterMethod()'><b>afterMethod</b><br>Test class: ProductType.CreateNewRecord</td>
+<td></td>
+<td>0</td>
+<td>ProductType.CreateNewRecord@233795b6</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.end()'><b>end</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BrokerMaster.Brokermaster.afterTest()'><b>afterTest</b><br>Test class: BrokerMaster.Brokermaster</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.Brokermaster@5aa9e4eb</td></tr>
+<tr>
+<td title='UnlistedMaster.SearchTab.beforeMethod()'><b>beforeMethod</b><br>Test class: UnlistedMaster.SearchTab</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.SearchTab@3eb738bb</td></tr>
+<tr>
+<td title='BrokerMaster.AddBroker.afterMethod()'><b>afterMethod</b><br>Test class: BrokerMaster.AddBroker</td>
+<td></td>
+<td>0</td>
+<td>BrokerMaster.AddBroker@185a6e9</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.AddBond.afterClass()'><b>afterClass</b><br>Test class: BondMaster.AddBond</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.AddBond@3b0090a4</td></tr>
+<tr>
+<td title='UserManagement.ViewTab.beforeMethod1()'><b>beforeMethod1</b><br>Test class: UserManagement.ViewTab</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.ViewTab@662ac478</td></tr>
+<tr>
+<td title='ProductType.ViewAndUpdate.beforeMethod()'><b>beforeMethod</b><br>Test class: ProductType.ViewAndUpdate</td>
+<td></td>
+<td>0</td>
+<td>ProductType.ViewAndUpdate@9d5509a</td></tr>
+<tr>
+<td title='UnlistedMaster.SearchTab.afterClass()'><b>afterClass</b><br>Test class: UnlistedMaster.SearchTab</td>
+<td></td>
+<td>0</td>
+<td>UnlistedMaster.SearchTab@3eb738bb</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.addBondFile.afterMethod()'><b>afterMethod</b><br>Test class: BondMaster.addBondFile</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.addBondFile@3eb25e1a</td></tr>
+<tr>
+<td title='BondMaster.searchTab.afterClass()'><b>afterClass</b><br>Test class: BondMaster.searchTab</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.searchTab@5bda8e08</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.afterClass4()'><b>afterClass4</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.AddBond.beforeClass()'><b>beforeClass</b><br>Test class: BondMaster.AddBond</td>
+<td></td>
+<td>0</td>
+<td>BondMaster.AddBond@3b0090a4</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserType()'><b>selectUserType</b><br>Test class: UserManagement.AddNewUser</td>
+<td></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -145,25 +542,22 @@ in C:\Users\INVESTVALUE\eclipse-workspace\neofndsk\testng.xml
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='UnlistedMaster.deom3.test1()'><b>test1</b><br>Test class: UnlistedMaster.deom3</td>
+<td title='BondMaster.EditBondDetails.updateCashflow()'><b>updateCashflow</b><br>Test class: BondMaster.EditBondDetails</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\INVESTVALUE\eclipse-workspace\neofndsk\testng.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1374754488", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1374754488'><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\INVESTVALUE\eclipse-workspace\neofndsk\testng.xml
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1387210478", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1387210478'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
@@ -179,7 +573,865 @@ in C:\Users\INVESTVALUE\eclipse-workspace\neofndsk\testng.xml
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>UnlistedMaster.deom3@13c9d689</td></tr>
+<td>BondMaster.EditBondDetails@3cd3e762</td></tr>
+<tr>
+<td title='ProductType.CreateNewRecord.test1()'><b>test1</b><br>Test class: ProductType.CreateNewRecord</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1270038388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1270038388'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>ProductType.CreateNewRecord@233795b6</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectBrokertab()'><b>selectBrokertab</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1006227006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1006227006'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectAdmin()'><b>selectAdmin</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace850551034", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace850551034'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UnlistedMaster.SearchTab.test1()'><b>test1</b><br>Test class: UnlistedMaster.SearchTab</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1237825806", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237825806'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UnlistedMaster.SearchTab@3eb738bb</td></tr>
+<tr>
+<td title='BrokerMaster.SearchTab.test1()'><b>test1</b><br>Test class: BrokerMaster.SearchTab</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1292040526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1292040526'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>BrokerMaster.SearchTab@f5958c9</td></tr>
+<tr>
+<td title='BrokerMaster.EditBrokerDetails.test1()'><b>test1</b><br>Test class: BrokerMaster.EditBrokerDetails</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace790722099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace790722099'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>BrokerMaster.EditBrokerDetails@6f03482</td></tr>
+<tr>
+<td title='ProductType.ViewAndUpdate.test1()'><b>test1</b><br>Test class: ProductType.ViewAndUpdate</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1632413663", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1632413663'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>ProductType.ViewAndUpdate@9d5509a</td></tr>
+<tr>
+<td title='BrokerMaster.Brokermaster.test1()'><b>test1</b><br>Test class: BrokerMaster.Brokermaster</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace16868310", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16868310'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>BrokerMaster.Brokermaster@5aa9e4eb</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectEmailId()'><b>selectEmailId</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1839337592", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1839337592'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.searchTab.test1()'><b>test1</b><br>Test class: BondMaster.searchTab</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1409545055", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1409545055'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>BondMaster.searchTab@5bda8e08</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectUserRole()'><b>selectUserRole</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1473771722", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1473771722'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectManager()'><b>selectManager</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace800281454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace800281454'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectMobileNo()'><b>selectMobileNo</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1207608476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1207608476'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.AddBond.test1()'><b>test1</b><br>Test class: BondMaster.AddBond</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace637241618", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace637241618'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>BondMaster.AddBond@3b0090a4</td></tr>
+<tr>
+<td title='UserManagement.ViewTab.test4()'><b>test4</b><br>Test class: UserManagement.ViewTab</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace552936351", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace552936351'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.ViewTab@662ac478</td></tr>
+<tr>
+<td title='UnlistedMaster.AddUnlisted.scriptName()'><b>scriptName</b><br>Test class: UnlistedMaster.AddUnlisted</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace363509958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace363509958'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UnlistedMaster.AddUnlisted@477b4cdf</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectFirstName()'><b>selectFirstName</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace943454742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace943454742'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UnlistedMaster.DisableButon.test1()'><b>test1</b><br>Test class: UnlistedMaster.DisableButon</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1636050357", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1636050357'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UnlistedMaster.DisableButon@179ece50</td></tr>
+<tr>
+<td title='BondMaster.EditBondDetails.submit()'><b>submit</b><br>Test class: BondMaster.EditBondDetails</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace122114483", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace122114483'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>BondMaster.EditBondDetails@3cd3e762</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectLastName()'><b>selectLastName</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1899223686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1899223686'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectEmployeeCode()'><b>selectEmployeeCode</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1456339771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1456339771'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='UserManagement.UserRoleTab.test3()'><b>test3</b><br>Test class: UserManagement.UserRoleTab</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace50699452", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace50699452'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.UserRoleTab@77c2494c</td></tr>
+<tr>
+<td title='UserManagement.UserManagTab.test1()'><b>test1</b><br>Test class: UserManagement.UserManagTab</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13803304", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13803304'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.UserManagTab@6743e411</td></tr>
+<tr>
+<td title='BrokerMaster.AddBroker.test1()'><b>test1</b><br>Test class: BrokerMaster.AddBroker</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1652807864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1652807864'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>BrokerMaster.AddBroker@185a6e9</td></tr>
+<tr>
+<td title='UserManagement.AddNewUser.selectMiddleName()'><b>selectMiddleName</b><br>Test class: UserManagement.AddNewUser</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1432536094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1432536094'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>UserManagement.AddNewUser@1e800aaa</td></tr>
+<tr>
+<td title='BondMaster.addBondFile.test1()'><b>test1</b><br>Test class: BondMaster.addBondFile</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace556488341", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace556488341'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeTest on method beforeClass but has not been marked @Optional or defined
+in C:\Users\INVESTVALUE\git\Neofindesk\neofndsk\Admin.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>BondMaster.addBondFile@3eb25e1a</td></tr>
 </table><p>
 </body>
 </html>

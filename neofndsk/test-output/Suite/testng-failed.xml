@@ -3,7 +3,120 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="UnlistedMaster.deom3">
+      <class name="BrokerMaster.EditBrokerDetails">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="test1"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- BrokerMaster.EditBrokerDetails -->
+      <class name="UnlistedMaster.AddUnlisted">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="scriptName"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- UnlistedMaster.AddUnlisted -->
+      <class name="BrokerMaster.Brokermaster">
+        <methods>
+          <include name="test1"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- BrokerMaster.Brokermaster -->
+      <class name="BondMaster.AddBond">
+        <methods>
+          <include name="test1"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- BondMaster.AddBond -->
+      <class name="ProductType.CreateNewRecord">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="test1"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- ProductType.CreateNewRecord -->
+      <class name="BondMaster.addBondFile">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="test1"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- BondMaster.addBondFile -->
+      <class name="UserManagement.ViewTab">
+        <methods>
+          <include name="beforeMethod1"/>
+          <include name="test4"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- UserManagement.ViewTab -->
+      <class name="UserManagement.UserRoleTab">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="test3"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- UserManagement.UserRoleTab -->
+      <class name="ProductType.ViewAndUpdate">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="test1"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ProductType.ViewAndUpdate -->
+      <class name="UserManagement.AddNewUser">
+        <methods>
+          <include name="selectEmailId"/>
+          <include name="selectMiddleName"/>
+          <include name="afterClass4"/>
+          <include name="selectBrokertab"/>
+          <include name="selectUserRole"/>
+          <include name="selectUserType"/>
+          <include name="beforeClass"/>
+          <include name="selectMobileNo"/>
+          <include name="selectLastName"/>
+          <include name="selectEmployeeCode"/>
+          <include name="selectFirstName"/>
+          <include name="end"/>
+          <include name="selectAdmin"/>
+          <include name="selectManager"/>
+        </methods>
+      </class> <!-- UserManagement.AddNewUser -->
+      <class name="UnlistedMaster.SearchTab">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="test1"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- UnlistedMaster.SearchTab -->
+      <class name="UserManagement.UserManagTab">
+        <methods>
+          <include name="afterTest"/>
+          <include name="test1"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- UserManagement.UserManagTab -->
+      <class name="UnlistedMaster.DisableButon">
         <methods>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
@@ -11,7 +124,44 @@
           <include name="test1"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- UnlistedMaster.deom3 -->
+      </class> <!-- UnlistedMaster.DisableButon -->
+      <class name="BondMaster.EditBondDetails">
+        <methods>
+          <include name="updateCashflow"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="submit"/>
+        </methods>
+      </class> <!-- BondMaster.EditBondDetails -->
+      <class name="BondMaster.searchTab">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- BondMaster.searchTab -->
+      <class name="BrokerMaster.AddBroker">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test1"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- BrokerMaster.AddBroker -->
+      <class name="BrokerMaster.SearchTab">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="test1"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- BrokerMaster.SearchTab -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

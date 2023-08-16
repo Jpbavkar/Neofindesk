@@ -55,7 +55,7 @@ public class DisableButon {
 		}
 	
 		
-driver.navigate().to("https://neofindesk.com/");
+driver.navigate().to("http://192.168.1.33:3000/");
 			
 System.out.println("neofindesk has been open");
 System.out.println("=====");
@@ -100,6 +100,7 @@ System.out.println("=====");
 
 
 		}
+	
 	@AfterMethod
 	public void afterMethod()
 	{
@@ -110,7 +111,7 @@ System.out.println("=====");
 	public void afterClass()
 	{
 		
-		driver.close();
+		//driver.close();
 		System.out.println("Test Ends");
 		
 	}

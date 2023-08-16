@@ -57,7 +57,7 @@ import pages.UserManagement;
 			
 			}
 			
-	driver.navigate().to("https://neofindesk.com/");			
+	driver.navigate().to("http://192.168.1.55:3000/");			
 	System.out.println("neofindesk has been open");
 		
 			homepage = new Homepage (driver);
@@ -68,7 +68,7 @@ import pages.UserManagement;
 			System.out.println("Homepage has been open");
 			
 			
-				System.out.println("Start");
+				
 			 userManagement = new UserManagement(driver);
 			userManagement.clickOnUserManagement();
 			
@@ -78,16 +78,20 @@ import pages.UserManagement;
 			@BeforeMethod
 			public void beforeMethod()
 			{	
-			WebElement userRole = driver.findElement(By.xpath("//label[@id='combo-box-demo-label']"));
+			
+				System.out.println("Start");
+		}
+			
+		@Test 
+		public void test1()
+		{
+
+//Admin			
+			WebElement userRole = driver.findElement(By.xpath("//button[@title='Open']"));
 			Actions act = new Actions(driver);
 			act.moveToElement(userRole).click().build().perform();
 			System.out.println("=====");
 			
-		}
-			
-		@Test(enabled=false)
-		public void test1()
-		{
 			System.out.println("Admin");
 			WebElement admin = driver.findElement(By.xpath("//li[text()='Admin']"));
 			admin.click();
@@ -111,11 +115,9 @@ import pages.UserManagement;
 			scrollDown.click(); 
 			
 			System.out.println("=====");
-		}
+		
 			
-			@Test(enabled=false)
-			public void test2()
-			{
+//Backoffice			
 				 
 			System.out.println("backoffice");
 			
@@ -139,11 +141,11 @@ import pages.UserManagement;
 			System.out.println("=====");
 			WebElement scrollDown2 = driver.findElement(By.xpath("//button[@title='Open']"));
 			scrollDown2.click();
-		}
 		
-		@Test
-		public void test3()
-		{
+		
+//Distributor
+			
+			System.out.println("Distributor");
 			WebElement distributor = driver.findElement(By.xpath("//li[text()='Distributor']"));
 			distributor.click();
 			
@@ -163,11 +165,11 @@ import pages.UserManagement;
 			System.out.println("=====");
 			WebElement scrollDown3 = driver.findElement(By.xpath("//button[@title='Open']"));
 			scrollDown3.click();
-		}
 		
-		@Test(enabled=false)
-		public void test4()
-		{
+
+//Manufacture
+			
+			System.out.println("Manufacture");
 			WebElement manufacture = driver.findElement(By.xpath("//li[text()='Manufacture']"));
 			manufacture.click();
 			
@@ -181,14 +183,23 @@ import pages.UserManagement;
 			{
 				System.out.println("Manufacture tab is not selected");
 			}
+			
+			WebElement adminresult2 = driver.findElement(By.xpath("//table[@aria-label='simple table']"));
+			String result13=adminresult2.getText();
+			System.out.println(result13);
+			if (result13.contains("JABA491"))
+				if(result13.contains("Jay Bavkar"))
+				if	(result13.contains("8830498803"))
+			{
+				System.out.println("New manufacture is created");
+			}
+			else
+			{
+				System.out.println("New manufacture is not created");
+			}
 		
-
-			WebElement close4 = driver.findElement(By.xpath("//button[@title='Clear']"));
-			close4.click();
-			System.out.println("=====");
-			WebElement scrollDown4 = driver.findElement(By.xpath("//button[@title='Open']"));
-			scrollDown4.click();
-		}
+		}	
+		
 		@AfterMethod
 		public void afterMethod()
 		{

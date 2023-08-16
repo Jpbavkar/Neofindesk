@@ -5,14 +5,14 @@
 	<test name="ChromeTest">
 		<parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="UnlistedMaster.deom3"/>
+      <class name="UnlistedMaster.AddUnlisted"/>
     </classes>
   </test> <!-- Test -->
   
   <test name="EdgeTest">
 		<parameter name="browser" value="Edge"/>
     <classes>
-      <class name="UnlistedMaster.deom3"/>
+      <class name="UnlistedMaster.AddUnlisted"/>
     </classes>
   </test> <!-- Test -->
   

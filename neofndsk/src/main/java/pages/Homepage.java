@@ -39,7 +39,7 @@ public class Homepage {
 	
 	public void sendKeysToPassword()
 	{
-		password.sendKeys("Ap@1234567");
+		password.sendKeys("AP123");
 	}
 	
 	public void clickOnSubmit()

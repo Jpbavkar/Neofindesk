@@ -1,50 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Failed suite [Suite1234]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="ChromeTest(failed)">
-    <parameter name="browser" value="Chrome"/>
-    <classes>
-      <class name="UserManagement.demo">
-        <methods>
-          <include name="selectAdmin"/>
-          <include name="selectMiddleName"/>
-          <include name="afterClass4"/>
-          <include name="selectUserRole"/>
-          <include name="selectBrokertab"/>
-          <include name="selectUserType"/>
-          <include name="selectEmailId"/>
-          <include name="end"/>
-          <include name="beforeClass"/>
-          <include name="selectMobileNo"/>
-          <include name="selectLastName"/>
-          <include name="selectManager"/>
-          <include name="selectEmployeeCode"/>
-          <include name="selectFirstName"/>
-        </methods>
-      </class> <!-- UserManagement.demo -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
   <test thread-count="2" parallel="tests" name="EdgeTest(failed)">
     <parameter name="browser" value="Edge"/>
     <classes>
-      <class name="UserManagement.demo">
+      <class name="UserManagement.ViewTab">
         <methods>
-          <include name="selectAdmin"/>
-          <include name="selectMiddleName"/>
-          <include name="afterClass4"/>
-          <include name="selectUserRole"/>
-          <include name="selectBrokertab"/>
-          <include name="selectUserType"/>
-          <include name="selectEmailId"/>
           <include name="beforeClass"/>
-          <include name="end"/>
-          <include name="selectMobileNo"/>
-          <include name="selectLastName"/>
-          <include name="selectEmployeeCode"/>
-          <include name="selectManager"/>
-          <include name="selectFirstName"/>
+          <include name="afterClass"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- UserManagement.demo -->
+      </class> <!-- UserManagement.ViewTab -->
     </classes>
   </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [Suite1234] -->

@@ -17,7 +17,7 @@ public class TCtHomepage {
 			driver.get("https://www.google.com");
 		
 
-			driver.navigate().to("https://neofindesk.com/");
+			driver.navigate().to("http://192.168.1.33:3000/");
 			
 			Homepage homepage = new Homepage (driver);
 			homepage.clickOnLogin();
